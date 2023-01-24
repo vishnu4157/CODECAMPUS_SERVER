@@ -698,16 +698,16 @@ mods = [
 
 10.times do
   user = User.new
-  user.name = Faker::Name.name
-  user.username = Faker::Internet.username
+  user.name = Faker::Movies::HarryPotter.character
+  user.username = Faker::Movies::HarryPotter.character
   user.password = Faker::Internet.password
   user.save
 end
 
 50.times do
   post = Post.new
-  post.title = Faker::Lorem.sentence
-  post.content = Faker::Lorem.paragraph
+  post.title = Faker::Movies::HarryPotter.quote
+  post.content = Faker::TvShows::GameOfThrones.quote
   post.user_id = Faker::Number.between(from: 1, to: 10)
   post.category = mods[Faker::Number.between(from: 0, to: 39)][:moduleCode]
   post.save
