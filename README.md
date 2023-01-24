@@ -3,7 +3,7 @@
 
 ## Basic Overview
 
-I am excited to share my web forum backend, built using Ruby on Rails. The backend is responsible for handling all the data manipulation and communication with the database, providing a seamless experience for the users. It implements the RESTful API architecture and uses the Ruby on Rails framework for quick and efficient development. The project is currently hosted on GitHub and is open-source, feel free to check it out, and give any feedback. I am proud of my work on this backend and would love to continue developing it in the future.
+I am excited to share my web forum backend, built using Ruby on Rails. The backend is responsible for handling all the data manipulation and communication with the database, providing a seamless experience for the users. It implements the RESTful API architecture and uses the Ruby on Rails framework for quick and efficient development. The project is currently hosted on GitHub and is open-source, feel free to check it out, and give any feedback as i would love to continue developing it in the future.
 
 ### Frontend of the Project
 - **Backend**: https://github.com/vishnu4157/CodeCampus_Client
